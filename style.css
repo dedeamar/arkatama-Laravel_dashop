@@ -1,6 +1,7 @@
 body{
-    background: pink;
+    background-color: teal;
 }
+
 .grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -13,7 +14,7 @@ img{
     object-fit: cover;
 }
 .grid > article{
-    box-shadow:12px 5px 5px 0px black;
+    box-shadow:15px 5px 5px 0px black;
     border-radius: 20px;
     text-align: center;
     background-color: aqua;
