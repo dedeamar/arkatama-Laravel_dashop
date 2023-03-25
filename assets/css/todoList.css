@@ -8,16 +8,7 @@
     background:rgba(1, 133, 126, 0.911);
   }
   
-  main {
-    width:500px;
-    background:white;
-    padding: 1em;
-    margin:0 auto;
-    margin-top: 3em;
-    box-shadow: 0px 5px 10px grey;
-    border-radius:5px;
-  /*   float:left; */
-  }
+  
   
   input[name=newTodo] {
     background: lightblue;
@@ -36,7 +27,7 @@
   input[type=submit] {
     margin:0;
     height:2.5em;
-    background:rgb(75, 62, 255);
+    background:rgb(224, 255, 113);
     border:0;
     border-radius:5px;
     width:29%;
@@ -44,13 +35,13 @@
     font-size:16px;
   /*   float:left; */
   }
-  ul {
+  li {
     list-style:none;
     margin-top:1em;
   }
   
   button {
-    background:tomato;
+    background:rgb(255, 38, 0);
     color:white;
   /*   font-weight:bold; */
     border:0;
